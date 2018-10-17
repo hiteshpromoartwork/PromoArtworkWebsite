@@ -1,4 +1,5 @@
 
+/*-- Reset-Code --*/
 
 body {
 	padding: 0;
@@ -258,7 +259,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 /*-- About --*/
 .about {
-	padding: 50px 0;
+	padding: 100px 0;
 }
 
 .about h3 {
@@ -412,7 +413,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	padding: 100px 0;
+	padding: 30px 0;
 	text-align: center;
 }
 
@@ -440,7 +441,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 /*-- New --*/
 .new {
-	padding: 50px 0;
+	padding: 100px 0;
 	background-color: #F5F5F5;
 	border-bottom: 2px solid #EEE;
 }
@@ -809,6 +810,7 @@ ul.social li a.googleplus:hover {
 
 /*-- Map --*/
 .map iframe {
+	padding: 100px 0;
 	width: 100%;
 	height: 500px;
 	border: 5px solid #FAFAFA;

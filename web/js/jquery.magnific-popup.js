@@ -1,6 +1,13 @@
 
 ;(function($) {
 
+/*>>core*/
+/**
+ * 
+ * Magnific Popup Core JS file
+ * 
+ */
+
 
 /**
  * Private static constants
