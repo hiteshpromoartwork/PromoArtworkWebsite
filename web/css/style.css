@@ -195,7 +195,7 @@ a.navbar-brand {
 
 .rslides img {
 	display: block;
-	height: auto;
+	height: 450px;
 	float: left;
 	width: 100%;
 	border: 0;
@@ -425,14 +425,16 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .features-item:hover{
-	background: rgba(0, 150, 136, 0.7);
+	/* background: rgba(0, 150, 136, 0.7); */
+	background: #f1f08c;
 	-webkit-transition: background .2s ease-in-out;
 	-moz-transition: background .2s ease-in-out;
 	transition: background .2s ease-in-out;
 }
 
 .features-item:hover h4 {
-	color: #FFF;
+	/* color: #FFF; */
+	color: rgb(236, 73, 73);
 	transform: translate(0,-5px);
 	-webkit-transform: translate(0,-5px);
 	-o-transform: translate(0,-5px);
