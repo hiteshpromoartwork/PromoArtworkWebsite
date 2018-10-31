@@ -195,7 +195,7 @@ a.navbar-brand {
 
 .rslides img {
 	display: block;
-	height: 450px;
+	/* height: 450px; */
 	float: left;
 	width: 100%;
 	border: 0;
@@ -404,6 +404,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 .features-icon img {
 	width: 75px;
+	height:70px;
 }
 
 .features-item h4{
@@ -1967,6 +1968,10 @@ a.mail:hover {
 @media screen and (max-width:500px) {
 	.navbar-brand{
 		width:50%;
+	}
+	
+	.rslides{
+		height:10%;
 	}
 }
 /*-- //Responsive Code --*/
