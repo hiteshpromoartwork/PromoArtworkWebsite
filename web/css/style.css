@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
+	font-family: Poppins,sans-serif!important;
 }
 
 p {
@@ -317,6 +317,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	font-size: 40px;
 	font-weight: 700;
 	color: #006B61;
+	font-family: Poppins,sans-serif!important;
 }
 
 
@@ -479,7 +480,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 /*-- Real --*/
 .real {
-	background: url("../images/real.jpg");
+	background: url("../images/Graphicbackground2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -514,6 +515,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding: 100px 0;
 	background-color: #F5F5F5;
 	border-bottom: 2px solid #EEE;
+	font-family: Poppins,sans-serif!important;
 }
 
 .new h4 {
@@ -523,7 +525,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .new-grid ul {
-    margin: 50px 0 0 50px;
+	margin: 50px 0 0 50px;
+	font-family: Poppins,sans-serif!important;
 }
 
 .new li {
@@ -892,7 +895,7 @@ ul.social li a.googleplus:hover {
 
 /*-- Contact --*/
 .contact {
-	background: url("../images/3.jpg");
+	background: url("../images/Graphic_background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -1219,6 +1222,7 @@ a.mail:hover {
 	}
 	.about h1, .features h2, .new h3, .formats h3, .progressive-effects h3, .team h3, .download h3, .contact h3 {
 		font-size: 35px;
+		font-family: Poppins,sans-serif!important;
 	}
 	.heading-underline {
 		height: 5px;
@@ -1346,6 +1350,7 @@ a.mail:hover {
 	}
 	.about h1, .features h2, .new h3, .formats h3, .progressive-effects h3, .team h3, .download h3, .contact h3 {
 		font-size: 30px;
+		font-family: Poppins,sans-serif!important;
 	}
 	.formats p {
 		font-size: 18px;
@@ -1413,9 +1418,11 @@ a.mail:hover {
 	.new-grid {
 		width: 50%;
 		float: left;
+		font-family: Poppins,sans-serif!important;
 	}
 	.new-grid ul {
 		margin: 15px 0 0 20px;
+		font-family: Poppins,sans-serif!important;
 	}
 	.formats {
 		padding: 50px 0;
@@ -1486,6 +1493,7 @@ a.mail:hover {
 	}
 	.new-grid ul {
 		margin: 15px 0 0 0px;
+		font-family: Poppins,sans-serif!important;
 	}
 	.new li {
 		font-size: 12px;
@@ -1574,6 +1582,7 @@ a.mail:hover {
 	}
 	.new-grid {
 		padding: 0 10px;
+		font-family: Poppins,sans-serif!important;
 	}
 	.new h4 {
 		font-size: 23px;
@@ -1685,6 +1694,7 @@ a.mail:hover {
 	}
 	.new-grid {
 		padding: 0 5px;
+		font-family: Poppins,sans-serif!important;
 	}
 	.new h4 {
 		font-size: 20px;
@@ -1986,3 +1996,33 @@ a.mail:hover {
 	}
 }
 /*-- //Responsive Code --*/
+
+.soft_menus {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 12em;
+	/* text-align: center; */
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	/* display: block !important; */
+	height: auto !important;
+	/* padding-bottom: 0; */
+	/* overflow: visible !important; */
+}
+.soft_menus a {
+	color:white!important;
+	padding:5px;
+	/* padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px; */
+	text-decoration: none;
+	display: block;
+	/* display: block !important; */
+	height: auto !important;
+	padding-bottom: 5px;
+	/* overflow: visible !important; */
+}
+.hover-effect:hover .soft_menus {display: block;}
+.hover-effect:hover .soft_menus {background-color: rgba(0, 0, 0, 0.85);}
+.soft_menus a:hover {background-color:red;}
